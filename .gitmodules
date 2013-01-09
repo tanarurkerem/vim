@@ -1,0 +1,24 @@
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "gitv"]
+	path = gitv
+	url = https://github.com/gregsexton/gitv.git
+[submodule "bundle/gitv"]
+	path = bundle/gitv
+	url = https://github.com/gregsexton/gitv.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = https://github.com/honza/snipmate-snippets.git
+[submodule "bundle/drupal-snippets"]
+	path = bundle/drupal-snippets
+	url = git@github.com:tanarurkerem/drupal-snippets.git
