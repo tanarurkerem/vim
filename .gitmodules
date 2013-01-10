@@ -19,3 +19,9 @@
 [submodule "bundle/drupal-snippets"]
 	path = bundle/drupal-snippets
 	url = git@github.com:tanarurkerem/drupal-snippets.git
+[submodule "bundle/taskpaper"]
+	path = bundle/taskpaper
+	url = https://github.com/davidoc/taskpaper.vim.git
+[submodule "bundle/compview"]
+	path = bundle/compview
+	url = https://github.com/vim-scripts/compview
