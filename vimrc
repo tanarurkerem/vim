@@ -48,3 +48,6 @@ if has("autocmd")
 endif
 
 filetype plugin on
+" Enable CursorLine
+set cursorline
+set cursorcolumn
