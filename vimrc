@@ -7,9 +7,10 @@ set smartindent
 set expandtab
 set softtabstop=2
 set tabstop=2
-set number
-set mouse=a
 set sw=2
+set number
+set numberwidth=4
+set mouse=a
 set directory=~/.vimbackup//
 set ignorecase
 set smartcase
@@ -51,3 +52,14 @@ filetype plugin on
 " Enable CursorLine
 set cursorline
 set cursorcolumn
+" Default Colors for CursorLine
+highlight  CursorLine cterm=None ctermbg=Gray
+
+" Change Color when entering Insert Mode
+autocmd InsertEnter * highlight  CursorLine ctermbg=None
+
+" Revert Color to default when leaving Insert Mode
+autocmd InsertLeave * highlight  CursorLine ctermbg=Gray
+
+set cc=+1
+highlight ColorColumn ctermbg=None cterm=underline
