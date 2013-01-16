@@ -53,7 +53,7 @@ filetype plugin on
 set cursorline
 set cursorcolumn
 " Default Colors for CursorLine
-highlight  CursorLine cterm=None ctermbg=Gray
+highlight CursorLine cterm=None ctermbg=Gray
 
 " Change Color when entering Insert Mode
 autocmd InsertEnter * highlight  CursorLine ctermbg=None
@@ -63,3 +63,22 @@ autocmd InsertLeave * highlight  CursorLine ctermbg=Gray
 
 set cc=+1
 highlight ColorColumn ctermbg=None cterm=underline
+
+let g:syntastic_phpcs_conf=" --standard=~/.vim/external-libs/drupalcs/Drupal --extensions=php,module,inc,install,test,profile,theme"
+
+" Taskpaper keys
+autocmd FileType taskpaper map td <Leader>td
+autocmd FileType taskpaper map tx <Leader>tx
+autocmd FileType taskpaper map tt <Leader>tt
+autocmd FileType taskpaper map tD <Leader>tD
+autocmd FileType taskpaper map tX <Leader>tX
+autocmd FileType taskpaper map tT <Leader>tT
+autocmd FileType taskpaper map t/ <Leader>t/
+autocmd FileType taskpaper map ts <Leader>ts
+autocmd FileType taskpaper map tp <Leader>tp
+autocmd FileType taskpaper map t. <Leader>t.
+autocmd FileType taskpaper map tP <Leader>tP
+autocmd FileType taskpaper map tj <Leader>tj
+autocmd FileType taskpaper map tk <Leader>tk
+autocmd FileType taskpaper map tg <Leader>tg
+autocmd FileType taskpaper map tm <Leader>tm

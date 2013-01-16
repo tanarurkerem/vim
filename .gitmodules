@@ -25,3 +25,6 @@
 [submodule "bundle/compview"]
 	path = bundle/compview
 	url = https://github.com/vim-scripts/compview
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
