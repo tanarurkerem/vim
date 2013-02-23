@@ -29,6 +29,7 @@ set laststatus=2
 "keresés
 map <c-f> /
 map <c-d> :nohlsearch<CR>
+imap ˆ ^
 
 " Valtas ablakok között
 map <c-n> :tabnext<CR>
